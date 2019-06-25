@@ -27,10 +27,10 @@ internet -> { [ WebRouter -> SQLController -> (SQL)(SeparatedSoftware) ] -> Logg
 	- [ ] SQL-Builder
 	- [ ] SQL-manipulator(增删改查)
 - [x] Logger
-	- [x] file-manipulator (seperate file by filter and date fileName:`TYPE.YYYY.MM.DD.log`)
-	- [x] generator (method: `Debug()`,`Info()`,`Warn()`,`Error()`,`Fatal()`)
-	- [x] formatter (specific for `eWhat` by [TYPE]YYYY/MM/DD HH:MM:SS LOG)
-	- [x] filter (`DEBUG`,`INFO`,`WARN`,`ERROR`,`FATAL`)
+	- [x] file-manipulator	(seperate file by filter and date fileName:`TYPE.YYYY.MM.DD.log`)
+	- [x] generator 		(method: `Debug()`,`Info()`,`Warn()`,`Error()`,`Fatal()`)
+	- [x] formatter 		(specific for `eWhat` by [TYPE]YYYY/MM/DD HH:MM:SS LOG)
+	- [x] filter 			s(`DEBUG`,`INFO`,`WARN`,`ERROR`,`FATAL`)
 
 ## WebRouter
 
